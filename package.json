@@ -1,0 +1,42 @@
+{
+  "name": "askyt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:extension": "tsc --project tsconfig.json",
+    "watch:extension": "tsc --watch --project tsconfig.json",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.2.4",
+    "@datastax/astra-db-ts": "^1.4.1",
+    "@types/chrome": "^0.0.269",
+    "@types/uuid": "^10.0.0",
+    "cassandra-driver": "^4.7.2",
+    "clsx": "^2.1.1",
+    "gpt-3-encoder": "^1.1.4",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "next": "14.2.5",
+    "qs": "^6.12.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "stargate-mongoose": "^0.6.3",
+    "svix": "^1.25.0",
+    "tailwind-merge": "^2.4.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
